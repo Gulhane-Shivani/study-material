@@ -45,7 +45,7 @@ public class FindFirstSunday
 		int firstSunday = (7 - firstDayIndex) % 7;		//finding the first sunday
 		
 		int count = 0;
-		if(firstSunday < n)
+		if(firstSunday < n)					//find the remainng days and after that sunday
 		{
 			count = 1 + (n - firstSunday - 1) / 7;
 		}
